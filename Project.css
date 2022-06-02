@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+/* TITLE */
+#first {
+    height: 100px;
+    background-color: gray;
+    color: white;
+    padding: 20px 200px 0 200px;
+}
+#second {
+    font-size: 40px;
+}
+
+/* FIRST PARAGRAPH */
+#firstrow {
+    margin: 15px auto 0 auto;
+    position: relative;
+    height: 300px;
+    width: 80%;
+}
+.third {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    height: 300px;
+    background-color: silver;
+    box-sizing: border-box; 
+}
+
+/* STRAWHAT PICTURE */
+.rightpicture {
+    display: inline-block;
+    position: absolute;
+    width: 69%;
+    height: 300px;
+    left: 31%;
+}
+.firstpic {
+    width: 100%;
+    height: 100%;
+}
+
+/* SECOND ROW */
+#secondrow {
+    margin: 15px auto 0 auto;
+    height: 250px;
+    width: 80%;
+    position: relative;
+}
+#luffy {
+    width: 33%;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+#luffy img {
+    width: 100px;
+    height: 100px;
+}
+#zoro {
+    width: 33%;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    left: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#zoro img {
+    width: 100px;
+    height: 100px;
+}
+#sanji {
+    width: 33%;
+    height: 250px;
+    display: inline-block;
+    position: absolute;
+    left: 66%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#sanji img {
+    width: 100px;
+    height: 100px;
+}
+
+/* THIRD ROW PICTURE */
+.thirdrow {
+    margin: 15px auto 0 auto;
+    height: 200px;
+    width: 80%;
+    left: 100%;
+}
+.strawhats {
+    height: 200px;
+    width: 265px;
+}
+#nami {
+    display: inline-block;
+}
+#usopp {
+    display: inline-block;
+}
+#chopper {
+    display: inline-block;
+}   
+#robin {
+    display: inline-block;
+}
+
+/* ABOUT THIRD ROW */
+.aboutthirdrow {
+    box-sizing: border-box;
+    margin: 0 auto 0 auto;
+    height: 270px;
+    width: 80%;
+    position: relative;
+}
+#aboutnami {
+    display: inline-block;
+    height: 100px;
+    width: 24%;
+    position: absolute;
+}
+#aboutusopp {
+    display: inline-block;
+    height: 100px;
+    width: 24%;
+    position: absolute;
+    left: 25%;
+}
+#aboutchopper {
+    display: inline-block;
+    height: 100px;
+    width: 25%;
+    position: absolute;
+    left: 50%;
+}   
+#aboutrobin {
+    display: inline-block;
+    height: 100px;
+    width: 24%;
+    position: absolute;
+    left: 75%;
+}
