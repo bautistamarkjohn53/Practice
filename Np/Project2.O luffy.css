@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+/* TITLE */
+#first {
+    height: 100px;
+    background-color: darkslategray;
+    color: white;
+    padding: 20px 200px 0 135px;
+}
+
+#second {
+    font-size: 40px;
+}
